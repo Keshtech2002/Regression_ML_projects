@@ -1,6 +1,6 @@
-boston-house-price-eda
-boston-housing-regression-linear-ridge-lasso
-handling-missing-data-mcar-mar-and-mnar-part-i
-linear-regression-regularization-lasso-ridge
-multicollinearity-detection-and-remedies
-regression-models-evaluation-metrics
+boston-house-price-eda.ipynb
+boston-housing-regression-linear-ridge-lasso.ipynb
+handling-missing-data-mcar-mar-and-mnar-part-i.ipynb
+linear-regression-regularization-lasso-ridge.ipynb
+multicollinearity-detection-and-remedies.ipynb
+regression-models-evaluation-metrics.ipynb
