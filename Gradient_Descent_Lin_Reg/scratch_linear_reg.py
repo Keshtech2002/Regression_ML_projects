@@ -21,9 +21,9 @@ class Linear_Regression:
 
         # implementing Gradient Descent
         for i in range(self.no_of_iterations):
-            self.update_weigths()
+            self.update_weights()
 
-    def update_weigths(self):
+    def update_weights(self):
         Y_prediction = self.predict(self.X)
 
         # calculate gradient
@@ -31,8 +31,8 @@ class Linear_Regression:
         db = - 2 * np.sum(self.Y - Y_prediction) / self.m
 
         # update the weigths
-        self.w = self.w - self.learning_rate
-        self.b = self.b - self.learning_rate
+        self.w = self.w - self.learning_rate * dw
+        self.b = self.b - self.learning_rate * db
 
     def predict(self, X):
         return X.dot(self.w) + self.b
