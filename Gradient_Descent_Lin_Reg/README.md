@@ -14,6 +14,8 @@ The learning rate is an important hyperparameter in gradient descent because it 
 There are different variations of gradient descent such as batch gradient descent, stochastic gradient descent, and mini-batch gradient descent, each with their own advantages and disadvantages depending on the size and complexity of the dataset.
 
 #### files
+| Files | |
+| ----- | ----- |
 | [gradient_descent.py](https://github.com/Keshtech2002/Regression_ML_projects/blob/main/Gradient_Descent_Lin_Reg/gradient_descent.py) | |
 | [salary_data.csv](https://github.com/Keshtech2002/Regression_ML_projects/blob/main/Gradient_Descent_Lin_Reg/salary_data.csv) | Practice dataset to check the working principle of my ```gradient descent Linear regression class``` |
 | [scratch_linear_reg.ipynb](https://github.com/Keshtech2002/Regression_ML_projects/blob/main/Gradient_Descent_Lin_Reg/scratch_linear_reg.ipynb) | Gradient descent notebook to predict salary and check how model performs |
