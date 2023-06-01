@@ -52,9 +52,10 @@ Taking some inferences from the boston housing data and building a multiple line
 ### Files
 | File | |
 | -------- | ---- |
-| [Housing.ipynb](https://github.com/Keshtech2002/Regression_ML_projects/blob/main/Boston_Housing_Prices_Dataset/Housing.ipynb) | Exploratory analysis and Regression notebook |
+| [LinReg.ipynb](https://github.com/Keshtech2002/Regression_ML_projects/blob/main/Boston_Housing_Prices_Dataset/LinReg.ipynb) | Exploratory analysis and Regression notebook |
 | [HousingData.csv](https://github.com/Keshtech2002/Regression_ML_projects/blob/main/Boston_Housing_Prices_Dataset/HousingData.csv) | Boston Housing Dataset |
 | [Untitled.ipynb](https://github.com/Keshtech2002/Regression_ML_projects/blob/main/Boston_Housing_Prices_Dataset/Untitled.ipynb) | Rough note |
+| [XGBoost.ipynb](https://github.com/Keshtech2002/Regression_ML_projects/blob/main/Boston_Housing_Prices_Dataset/XGBoost.ipynb) | Boston Housing prediction using XGBoost regression |
 
 ### ABOUT THE DATA
 - **Number of Instances**: 506
