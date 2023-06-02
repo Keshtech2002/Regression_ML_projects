@@ -1,7 +1,7 @@
 # Medical_INsurance_Cost_Prediction
 
 ### ABOUT THE PROJECT
-Taking some inferences from the Medical Cost Personal Datasets and building a regression model to predict.
+Taking some inferences from the [Medical Cost Personal Datasets](https://www.kaggle.com/datasets/mirichoi0218/insurance) and building a regression model to predict.
 #### Concepts mentioned here were learnt and utilized in this project
 
 #### Exploratory Data Analysis (EDA)
