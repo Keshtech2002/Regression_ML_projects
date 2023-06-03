@@ -1,4 +1,4 @@
-# Medical_INsurance_Cost_Prediction
+# Calories Burnt Prediction
 
 ### ABOUT THE PROJECT
 Taking some inferences from the [fmendes-DAT263x-demos](https://www.kaggle.com/datasets/fmendes/fmendesdat263xdemos) and finding the Correlations between calories burnt, exercise and body type
