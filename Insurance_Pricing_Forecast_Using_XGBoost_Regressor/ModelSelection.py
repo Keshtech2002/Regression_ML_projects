@@ -1,4 +1,3 @@
-
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -17,10 +16,10 @@ from sklearn.model_selection import KFold, cross_val_score
 
 
 models = [
-    RandomForestRegressor(),
-    SVR(),
-    GradientBoostingRegressor(),
-    XGBRegressor(),
+#     RandomForestRegressor(),
+#     SVR(),
+#     GradientBoostingRegressor(),
+#     XGBRegressor(),
     LinearRegression(),
     Lasso(),
     Ridge()
@@ -32,7 +31,7 @@ models = [
 # Apply GridSearchCV
 def model_selection(X, y, list_of_models, hyperparameters_dict):
     model_keys = list(hyperparameters_dict.keys())
-    results = []
+    all_results = []
     
     i = 0
     
@@ -47,12 +46,14 @@ def model_selection(X, y, list_of_models, hyperparameters_dict):
         classifier = GridSearchCV(model, params, cv=5)
         classifier.fit(X, y)
         
-        results.append({
-            'model_used' : model,
-            'highest_score' :classifier.best_score_,
-            'best_hyperparameters' : classifier.best_params_
-        })
+        result ={
+            'model_used' : model.__class__.__name__,
+            'highest_score' : classifier.best_score_,
+            'best_hyperparameter' : classifier.best_params_
+        }
+        
+        all_results.append(result)
         
 
-    result_dataframe = pd.DataFrame(results, columns = ['model used', 'highest score', 'best param'])
+    result_dataframe = pd.DataFrame(all_results, columns = ['model_used', 'highest_score', 'best_hyperparameter'])
     return result_dataframe
